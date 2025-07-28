@@ -1,0 +1,67 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+# 환경에 따라 달라지는 Maven 홈 디렉터리
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# === 추가 권장 사항 ===
+
+# Java 컴파일 파일
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Java 실행 관련
+hs_err_pid*
+replay_pid*
+
+# 빌드 디렉터리
+/target/
+/build/
+/out/
+/bin/
+
+# Maven/Gradle 래퍼
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# IDE 추가 설정
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS 생성 파일
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 로그 파일
+*.log
+/logs/
+
+# 임시 파일
+*.tmp
+*.temp
+/temp/
+
+# 개인 메모/설정
+/notes/
+/personal/
